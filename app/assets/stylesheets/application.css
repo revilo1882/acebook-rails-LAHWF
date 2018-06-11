@@ -20,6 +20,28 @@ header {
   box-shadow: 0px 5px 10px black;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+  font-family: 'BioRhyme Expanded', serif;
+}
+
+.account a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+}
+
 .info {
   display: flex;
 }
