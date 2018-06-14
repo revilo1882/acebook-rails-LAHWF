@@ -20,6 +20,7 @@
    <%= form.text_area :message %>
    <%= form.label :image %>
    <%= form.file_field :image %>
+   <%= form.hidden_field :recipient_id, :value => @user_id %>
 
    <%= form.submit "Submit" %>
  <% end %>
