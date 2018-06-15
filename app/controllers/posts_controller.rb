@@ -48,6 +48,7 @@ class PostsController < ApplicationController
   end
 
   def downvote
+    p current_user
     Post.public_activity_off
     if current_user.disliked? @post
       Post.public_activity_on
