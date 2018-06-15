@@ -1,9 +1,11 @@
 <li class="activities-list">
   <% if a.trackable %>
+    <% @post_receiving_comment = Post.find_by(id: a.trackable.post_id) %>
+    <% @post_user = User.find_by(id: @post_receiving_comment.user_id) %>
     <%= link_to(image_tag(a.trackable.user.image.url(:thumb)), user_url(a.trackable.user), class:'notification-avatar') %>
     <%= link_to user_url(a.trackable.user) do %>
       <%= a.created_at.strftime("%e %B %Y %H:%M") %>
-      <%= a.trackable.user.first_name %> (<%= a.trackable.user.username%>) made a comment
+      <%= a.trackable.user.first_name %> (<%= a.trackable.user.username%>) commented on a post created by <%= @post_user.first_name %> (<%= @post_user.username %>)
     <% end %>
   <% end %>
 </li>

@@ -78,6 +78,6 @@ RSpec.feature "Notifications", type: :feature do
     make_a_text_post
     fill_in "comment_content", with: 'This is a comment!'
     click_button "Comment"
-    page.find("li", text: "#{new_time} Clint (GoldFish) made a comment")
+    page.find("li", text: "#{new_time} Clint (GoldFish) commented on a post created by Clint (GoldFish)")
   end
 end
