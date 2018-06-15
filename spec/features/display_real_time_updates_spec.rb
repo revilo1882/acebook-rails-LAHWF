@@ -22,9 +22,11 @@ RSpec.feature "Notifications", type: :feature do
     Timecop.freeze(new_time)
     sign_up_and_sign_in
     make_a_text_post
+    click_link "Log Out"
+    sign_up_and_sign_in_other_user
     find(:xpath, "//a/img[@alt='Buuble']/..").click
     find('img#notification-icon').click
-    page.find("li", text: "#{new_time} Clint (GoldFish) liked a post")
+    page.find("li", text: "#{new_time} Louise (Plankton) liked a post created by Clint (GoldFish)")
   end
 
   scenario "Displays the author and time of the disliked post" do
@@ -33,9 +35,11 @@ RSpec.feature "Notifications", type: :feature do
     Timecop.freeze(new_time)
     sign_up_and_sign_in
     make_a_text_post
+    click_link "Log Out"
+    sign_up_and_sign_in_other_user
     find(:xpath, "//a/img[@alt='Anchor']/..").click
     find('img#notification-icon').click
-    page.find("li", text: "#{new_time} Clint (GoldFish) disliked a post")
+    page.find("li", text: "#{new_time} Louise (Plankton) disliked a post created by Clint (GoldFish)")
   end
 
   scenario "Displays the author and time of the unliked post" do
@@ -44,10 +48,12 @@ RSpec.feature "Notifications", type: :feature do
     Timecop.freeze(new_time)
     sign_up_and_sign_in
     make_a_text_post
+    click_link "Log Out"
+    sign_up_and_sign_in_other_user
     find(:xpath, "//a/img[@alt='Buuble']/..").click
     find(:xpath, "//a/img[@alt='Buuble']/..").click
     find('img#notification-icon').click
-    page.find("li", text: "#{new_time} Clint (GoldFish) unliked a post")
+    page.find("li", text: "#{new_time} Louise (Plankton) unliked a post created by Clint (GoldFish)")
   end
 
   scenario "Displays the author and time of the undisliked post" do
@@ -56,9 +62,11 @@ RSpec.feature "Notifications", type: :feature do
     Timecop.freeze(new_time)
     sign_up_and_sign_in
     make_a_text_post
+    click_link "Log Out"
+    sign_up_and_sign_in_other_user
     find(:xpath, "//a/img[@alt='Anchor']/..").click
     find(:xpath, "//a/img[@alt='Anchor']/..").click
     find('img#notification-icon').click
-    page.find("li", text: "#{new_time} Clint (GoldFish) undisliked a post")
+    page.find("li", text: "#{new_time} Louise (Plankton) undisliked a post created by Clint (GoldFish)")
   end
 end
