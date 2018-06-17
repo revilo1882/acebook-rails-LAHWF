@@ -64,13 +64,13 @@ As part of our day-to-day planning, we would have morning stand-ups to discuss t
 
 Here are some photos of our standup/retrospective sessions:
 
-![ScreenShot](1.jpg)
-![ScreenShot](2.jpg)
-![ScreenShot](3.jpg)
-![ScreenShot](4.jpg)
-![ScreenShot](5.jpg)
-![ScreenShot](6.jpg)
-![ScreenShot](7.jpg)
-![ScreenShot](8.jpg)
-![ScreenShot](9.jpg)
-![ScreenShot](10.jpg)
+<p><img src="1.jpg"></p>
+<p><img src="2.jpg"></p>
+<p><img src="3.jpg"></p>
+<p><img src="4.jpg"></p>
+<p><img src="5.jpg"></p>
+<p><img src="6.jpg"></p>
+<p><img src="7.jpg"></p>
+<p><img src="8.jpg"></p>
+<p><img src="9.jpg"></p>
+<p><img src="10.jpg"></p>
