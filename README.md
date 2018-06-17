@@ -1,6 +1,6 @@
 # AceBook - Fishbook
 
-This is a collaborative project called Fishbook, an aquatic themed clone of the social media platform Facebook written using Ruby-on-Rails as part of the engineering weeks at Makers Academy.
+This is a collaborative project called Fishbook, an aquatic themed clone of the social media platform Facebook written using Ruby-on-rails as part of the engineering weeks at Makers Academy.
 
 
 ## Contributing Developers
@@ -20,6 +20,13 @@ This is a collaborative project called Fishbook, an aquatic themed clone of the 
 A user can create a post on the homepage, on their profile page, or on another user's profile page. Posts can be edited, deleted, commented on, liked, and disliked (one like/dislike per user). A live notification feed updates whenever a user performs one of these actions. Only the user who created a post can edit or delete it.
 
 Any user's avatar can be clicked on, redirecting to their profile page.
+
+
+## Technologies
+
+| Tech | Testing | Gems |
+|---|---|---|
+| Ruby-on-rails, Ruby, PostgreSQL, HTML, CSS, jQuery, Travis-ci, Simplecov, Rubocop, Aws-sdk | RSpec-rails, Capybara, Factory_bot_rails | Devise, Paperclip, Acts_As_Votable, Public_activity |
 
 
 ## Card Wall
