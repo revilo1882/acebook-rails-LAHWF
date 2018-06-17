@@ -1,4 +1,6 @@
-# AceBook
+# AceBook - Fishbook
+
+This is a collaborative project called Fishbook, an aquatic themed clone of the social media platform Facebook written using Ruby-on-Rails as part of the engineering weeks at Makers Academy.
 
 
 ## Contributing Developers
@@ -7,6 +9,18 @@
 - [Oliver Harris](https://github.com/revilo1882)
 - [Sam Worrall](https://github.com/samworrall)
 - [Robert Fishwick](https://github.com/afishcalledrob)
+
+
+## Functionality
+
+ A new user must sign up with an email and password, their first, last, and user-name, and can specify a profile picture, after which they will be redirected to the homepage, where all posts are listed.
+
+ A user is able to edit or delete their account, either from the homepage or from their profile.
+
+A user can create a post on the homepage, on their profile page, or on another user's profile page. Posts can be edited, deleted, commented on, liked, and disliked (one like/dislike per user). A live notification feed updates whenever a user performs one of these actions. Only the user who created a post can edit or delete it.
+
+Any user's avatar can be clicked on, redirecting to their profile page.
+
 
 ## Card Wall
 We used a Trello card wall to organise our 2 day sprints. Every ticket was estimated before being worked on, and each ticket was assigned to a pair or a three, and in some cases a solo developer.
