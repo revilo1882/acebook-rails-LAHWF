@@ -32,4 +32,4 @@ brew install imagemagick
 
 See the live Heroku application in action by clicking the image below:
 
-<a href="https://morning-everglades-97311.herokuapp.com/"><img src="logos/Heroku.png" height="90" width="75"></a>
+<a href="https://morning-everglades-97311.herokuapp.com/"><img src="logos/Heroku.png" height="110" width="90"></a>
