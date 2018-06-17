@@ -1,6 +1,6 @@
 # AceBook - Fishbook
 
-This is a collaborative project called Fishbook, an aquatic themed clone of the social media platform Facebook written using Ruby-on-rails as part of the engineering weeks at Makers Academy.
+This is a collaborative project called Fishbook, an aquatic themed clone of the social media platform Facebook written using Ruby-on-rails as part of the engineering weeks at Makers Academy. Through this project, we learned how to work effectively and efficiently as a team, and were able to meet all requirements for the project with 100% test coverage.
 
 
 ## Contributing Developers
@@ -56,3 +56,21 @@ First, clone this repository. Then:
 > bundle exec rspec # Run the tests to ensure it works
 > bin/rails server # Start the server at localhost:3000
 ```
+
+
+## Standups and Retrospectives
+
+As part of our day-to-day planning, we would have morning stand-ups to discuss the aims for that day and assign tasks, as well as afternoon retrospectives to reflect on what we had achieved/learned/had difficulty with. This helped us articulate and overcome problems we perceived would be blockers, and ultimately led to increased productivity.
+
+Here are some photos of our standup/retrospective sessions:
+
+<img src="1.jpg">
+<img src="2.jpg">
+<img src="3.jpg">
+<img src="4.jpg">
+<img src="5.jpg">
+<img src="6.jpg">
+<img src="7.jpg">
+<img src="8.jpg">
+<img src="9.jpg">
+<img src="10.jpg">
