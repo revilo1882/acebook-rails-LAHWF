@@ -1,14 +1,10 @@
 # AceBook
 
-Fork this repository to `acebook-teamname` and customize
-the below**
 
-[You can find the engineering project outline here.](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
 
 The card wall is here: <please update>
 
-## How to contribute to this project
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+
 
 ## Quickstart
 
@@ -26,4 +22,7 @@ First, clone this repository. Then:
 ________________________________________________________
 
 brew install imagemagick
-https://morning-everglades-97311.herokuapp.com/
+
+See the Heroku application in action:
+
+<a href="https://morning-everglades-97311.herokuapp.com/"><img src="logos/Heroku.png"></a>
