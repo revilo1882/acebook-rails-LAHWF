@@ -29,6 +29,11 @@ Any user's avatar can be clicked on, redirecting to their profile page.
 | Ruby-on-rails, Ruby, PostgreSQL, HTML, CSS, jQuery, Travis-ci, Simplecov, Rubocop, Aws-sdk | RSpec-rails, Capybara, Factory_bot_rails | Devise, Paperclip, Acts_As_Votable, Public_activity |
 
 
+## Standups and Retrospectives
+
+As part of our day-to-day planning, we would have morning stand-ups to discuss the aims for that day and assign tasks, as well as afternoon retrospectives to reflect on what we had achieved/learned/had difficulty with. This helped us articulate and overcome problems we perceived would be blockers, and ultimately led to increased productivity.
+
+
 ## Card Wall
 We used a Trello card wall to organise our 2 day sprints. Every ticket was estimated before being worked on, and each ticket was assigned to a pair or a three, and in some cases a solo developer.
 
@@ -56,21 +61,3 @@ First, clone this repository. Then:
 > bundle exec rspec # Run the tests to ensure it works
 > bin/rails server # Start the server at localhost:3000
 ```
-
-
-## Standups and Retrospectives
-
-As part of our day-to-day planning, we would have morning stand-ups to discuss the aims for that day and assign tasks, as well as afternoon retrospectives to reflect on what we had achieved/learned/had difficulty with. This helped us articulate and overcome problems we perceived would be blockers, and ultimately led to increased productivity.
-
-Here are some photos of our standup/retrospective sessions:
-
-<p><img src="1.jpg"></p>
-<p><img src="2.jpg"></p>
-<p><img src="3.jpg"></p>
-<p><img src="4.jpg"></p>
-<p><img src="5.jpg"></p>
-<p><img src="6.jpg"></p>
-<p><img src="7.jpg"></p>
-<p><img src="8.jpg"></p>
-<p><img src="9.jpg"></p>
-<p><img src="10.jpg"></p>
