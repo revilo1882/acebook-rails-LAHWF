@@ -7,7 +7,7 @@ We used a Trello card wall to organise our 2 day sprints. Every ticket was estim
 
 Check out our Trello card wall by clicking the image below:
 
-<a href="https://trello.com/b/FfooEp0e/acebook-lahwf"><img src="logos/Trello.png" height="80" width="160"></a>
+<a href="https://trello.com/b/FfooEp0e/acebook-lahwf"><img src="logos/Trello.png" height="80" width="190"></a>
 
 
 
@@ -32,4 +32,4 @@ brew install imagemagick
 
 See the live Heroku application in action by clicking the image below:
 
-<a href="https://morning-everglades-97311.herokuapp.com/"><img src="logos/Heroku.png" height="80" width="70"></a>
+<a href="https://morning-everglades-97311.herokuapp.com/"><img src="logos/Heroku.png" height="90" width="75"></a>
