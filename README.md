@@ -7,7 +7,7 @@ We used a Trello card wall to organise our 2 day sprints. Every ticket was estim
 
 Check out our Trello card wall by clicking the image below:
 
-<a href="https://trello.com/b/FfooEp0e/acebook-lahwf"><img src="logos/Trello.png" height="80" width="110"></a>
+<a href="https://trello.com/b/FfooEp0e/acebook-lahwf"><img src="logos/Trello.png" height="80" width="140"></a>
 
 
 
