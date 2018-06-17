@@ -25,4 +25,4 @@ brew install imagemagick
 
 See the Heroku application in action:
 
-<a href="https://morning-everglades-97311.herokuapp.com/"><img src="logos/Heroku.png" height="30" width="20"></a>
+<a href="https://morning-everglades-97311.herokuapp.com/"><img src="logos/Heroku.png" height="80" width="70"></a>
